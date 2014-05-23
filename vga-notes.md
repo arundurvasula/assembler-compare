@@ -38,3 +38,15 @@ Viral Genome Assembly Project Notes
 - Metavelvet assembles multiple genomes from mixed sequence reads of multiple species in a microbial community (http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3488206/)
 - SGA preprocessor to prepare reads for assembly
 
+=========
+5/21/2014
+
+- K-mer length for short reads? 17mer
+- How to assess a good assembly?
+
+=========
+5/23/2014
+
+- Setting up Windows environment today. Software to install today:
+    - Cygwin
+    - Velvet
