@@ -48,5 +48,7 @@ Viral Genome Assembly Project Notes
 5/23/2014
 
 - Setting up Windows environment today. Software to install today:
-    - Cygwin
+    - Anaconda Python
     - Velvet
+    - Git, Github Windows
+    - NCBI Toolkit with BLAST
