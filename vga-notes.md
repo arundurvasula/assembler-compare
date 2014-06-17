@@ -72,7 +72,7 @@ Viral Genome Assembly Project Notes
 =========
 6/17/2014
 
-- Two different VelvetOptimiser runs.
+- Two different VelvetOptimiser runs:
     - Optimizing for n50 and length of contigs:
         
             Final optimised assembly details:
@@ -119,3 +119,4 @@ Viral Genome Assembly Project Notes
             Total bases in contigs > 1k: 2510
             **********************************************************
 
+- Did two price assemblies on previously assembled Velvet contigs. Increased n50 from 46 to 195. Check IPython notebook for results. I think we are losing a ton of sequence data. Need to research contig edge assemblies more: http://derisilab.ucsf.edu/software/price/PriceDocumentation140408/problemAnalysis.html
