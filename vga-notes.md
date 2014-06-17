@@ -75,47 +75,47 @@ Viral Genome Assembly Project Notes
 - Two different VelvetOptimiser runs.
     - Optimizing for n50 and length of contigs:
         
-        Final optimised assembly details:
-        ********************************************************
-        Assembly id: 10
-        Velveth timestamp: Jun 16 2014 14:39:15
-        Velvetg timestamp: Jun 16 2014 15:05:08
-        Velveth version: 1.2.09
-        Velvetg version: 1.2.09
-        Readfile(s): -fastq ../data/LV89-02.fastq
-        Velveth parameter string: auto_data_31 31 -fastq ../data/LV89-02.fastq
-        Velvetg parameter string: auto_data_31  -clean yes -exp_cov 3 -cov_cutoff 0.3502176
-        Assembly directory: /home/arun/Documents/assembler-compare/scripts/auto_data_31
-        Velvet hash value: 31
-        Roadmap file size: 439572844
-        Total number of contigs: 3568
-        n50: 98
-        length of longest contig: 965
-        Total bases in contigs: 329515
-        Number of contigs > 1k: 0
-        Total bases in contigs > 1k: 0
-        **********************************************************
+            Final optimised assembly details:
+            ********************************************************
+            Assembly id: 10
+            Velveth timestamp: Jun 16 2014 14:39:15
+            Velvetg timestamp: Jun 16 2014 15:05:08
+            Velveth version: 1.2.09
+            Velvetg version: 1.2.09
+            Readfile(s): -fastq ../data/LV89-02.fastq
+            Velveth parameter string: auto_data_31 31 -fastq ../data/LV89-02.fastq
+            Velvetg parameter string: auto_data_31  -clean yes -exp_cov 3 -cov_cutoff 0.3502176
+            Assembly directory: /home/arun/Documents/assembler-compare/scripts/auto_data_31
+            Velvet hash value: 31
+            Roadmap file size: 439572844
+            Total number of contigs: 3568
+            n50: 98
+            length of longest contig: 965
+            Total bases in contigs: 329515
+            Number of contigs > 1k: 0
+            Total bases in contigs > 1k: 0
+            **********************************************************
     - Optimizing for n50 and length of bp:
 
-        Final optimised assembly details:
-        ********************************************************
-        Assembly id: 6
-        Assembly score: 2510
-        Velveth timestamp: Jun  4 2014 11:50:11
-        Velvetg timestamp: Jun  4 2014 12:03:45
-        Velveth version: 1.2.10
-        Velvetg version: 1.2.10
-        Readfile(s): -short -fastq LV89-02-ds.fastq
-        Velveth parameter string: auto_data_23 23 -short -fastq LV89-02-ds.fastq
-        Velvetg parameter string: auto_data_23  -clean yes -exp_cov 2 -cov_cutoff 0.3777216
-        Assembly directory: /home/arun/Documents/assembler-compare/data/auto_data_23
-        Velvet hash value: 23
-        Roadmap file size: 494134784
-        Total number of contigs: 15815
-        n50: 46
-        length of longest contig: 1498
-        Total bases in contigs: 926242
-        Number of contigs > 1k: 2
-        Total bases in contigs > 1k: 2510
-        **********************************************************
+            Final optimised assembly details:
+            ********************************************************
+            Assembly id: 6
+            Assembly score: 2510
+            Velveth timestamp: Jun  4 2014 11:50:11
+            Velvetg timestamp: Jun  4 2014 12:03:45
+            Velveth version: 1.2.10
+            Velvetg version: 1.2.10
+            Readfile(s): -short -fastq LV89-02-ds.fastq
+            Velveth parameter string: auto_data_23 23 -short -fastq LV89-02-ds.fastq
+            Velvetg parameter string: auto_data_23  -clean yes -exp_cov 2 -cov_cutoff 0.3777216
+            Assembly directory: /home/arun/Documents/assembler-compare/data/auto_data_23
+            Velvet hash value: 23
+            Roadmap file size: 494134784
+            Total number of contigs: 15815
+            n50: 46
+            length of longest contig: 1498
+            Total bases in contigs: 926242
+            Number of contigs > 1k: 2
+            Total bases in contigs > 1k: 2510
+            **********************************************************
 
