@@ -52,3 +52,19 @@ Viral Genome Assembly Project Notes
     - Velvet
     - Git, Github Windows
     - NCBI Toolkit with BLAST
+
+=========
+6/16/2014
+
+- Moved computers and now on a Linux machine.
+- Ran VelvetOptimiser to find best Velvet options (optimizing for number of long contigs)
+- Installing software:
+    - Velvet
+    - VelvetOptimiser
+    - PRICE
+    - VICUNA
+    - SOAP de novo
+- Next goal is to increase contig size
+- Scaffolding seems difficult without paired end data
+- For script, want to compare assemblers with N50, Number contigs > 1KB, Max length, Total number of contigs
+- Tomorrow: run PRICE on raw data, run PRICE on Velvet contigs
