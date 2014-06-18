@@ -129,3 +129,4 @@ Viral Genome Assembly Project Notes
 		velvet reads.fa | PRICE  contigs.fa > new-contigs.fa
 		cat new-contigs.fa reads.fa > new-reads.fa
 		velvet new-reads.fa > new-contigs-v2.fa
+- Need to check how many good quality reads there are. Velvet is only using 28.42% of the reads.
