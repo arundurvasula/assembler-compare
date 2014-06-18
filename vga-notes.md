@@ -120,3 +120,12 @@ Viral Genome Assembly Project Notes
             **********************************************************
 
 - Did two price assemblies on previously assembled Velvet contigs. Increased n50 from 46 to 195. Check IPython notebook for results. I think we are losing a ton of sequence data. Need to research contig edge assemblies more: http://derisilab.ucsf.edu/software/price/PriceDocumentation140408/problemAnalysis.html
+
+=========
+6/18/2014
+
+- Examining assemblies and comparing. I'm aligning the reads back to the contigs to see how many reads are being used. PRICE seems to be using a lot less of the reads, which makes sense because both Velvet and PRICE throw out reads. It might be possible to go back in with the contigs and combine them with the reads and re run the assemblers. If this is the case, the pipeline would look something like :
+
+		velvet reads.fa | PRICE  contigs.fa > new-contigs.fa
+		cat new-contigs.fa reads.fa > new-reads.fa
+		velvet new-reads.fa > new-contigs-v2.fa
