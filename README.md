@@ -5,14 +5,15 @@ To add a new assembly, create a new line in assembly.sh and increment the ID by 
 #Directory stucture:
 When cloning this repository, some folders must be created. Here is what the structure should look like:
 
-assembler-compare
-    |
-    |----data
-    |       |----trimmed-reads
-    |
-    |----results
-    |       |----blast
-    |       |----contigs
-    |       |----alignment
-    |
-    |----scripts
+        assembler-compare
+            |
+            |----data
+            |       |----trimmed-reads
+            |
+            |----results
+            |       |----blast
+            |       |----contigs
+            |       |----alignment
+            |
+            |----scripts
+
