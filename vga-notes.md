@@ -130,3 +130,29 @@ Viral Genome Assembly Project Notes
 		cat new-contigs.fa reads.fa > new-reads.fa
 		velvet new-reads.fa > new-contigs-v2.fa
 - Need to check how many good quality reads there are. Velvet is only using 28.42% of the reads.
+
+=========
+6/19/2014
+
+- Next steps:
+    1. Because assemblies are getting decent, need to compare these assemblies with that of CLCBio.
+        - Compare assembly scores and blast results
+    2. Need to contact some people about questions to improve assembly.
+    3. Assemblies are removing a large percentage of the reads.
+        - Blast the unassembled reads to viral section of Genbank
+        - Map the unassembled reads to viruses that we know are in the sample (e.g. LR1, etc.)
+        - Run assemblies with contigs + unassembled reads. Maybe produce a better assembly?
+
+- local blast: have to create databases from fasta files:
+        
+        makeblastdb -in viral.1.protein.faa -dbtype prot -parse_seqids -out viral_protein -title "Viral Protein"
+        blastx -db ../../viral-database/viral_protein/viral_protein -query price-1-contigs-k23-n5046-max1498.cycle30.fasta -outfmt 10 -out local-blastx-price-1-contigs-k23-n5046-max1498.cycle30.out
+
+- Blast compare:
+
+| Contigs | BLASTX | BLASTN | BLASTX |
+|         | Time (local) | Time (local) | Time (remote), nr |
+|---------|------|------|--------|
+|PRICE contigs | 1m44.847s | 0m0.816s | 95m28.733s |
+|CLC contigs | 7m22.383s | 0m1.298s | |
+
