@@ -19,7 +19,6 @@ source /home/arun/.bash_profile
 #PriceTI -icf ../results/contigs/VelvetOptimiser001/contigs.fa 10 10 3 -o ../results/contigs/contigs-price-002.fasta -nc 30 -nco 30 -mol 30 -mpi 80
 # ID=003
 #PriceTI -icf ../results/contigs/VelvetOptimiser001/contigs.fa 10 10 3 -o ../results/contigs/contigs-price-003.fasta -nc 30 -nco 30 -mol 20 -mpi 50
-
 # ID=004
 #PriceTI -icf ../results/contigs/VelvetOptimiser001/contigs.fa 10 10 3 -o ../results/contigs/contigs-price-004.fasta -nc 30 -nco 30 -mol 5 -mpi 50
 
