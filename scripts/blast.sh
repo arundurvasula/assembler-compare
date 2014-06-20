@@ -5,13 +5,16 @@ source /home/arun/.bash_profile
 #This script holds commands to blastx the assembled contigs.
 
 # ID 001
-blastx -db ../../viral-database/viral_protein/viral_protein -query ../results/contigs/VelvetOptimiser001/contigs.fa -outfmt 10 -out ../results/blast/blast-001.csv
+blastx -db ../../viral-database/viral_protein/viral_protein -query ../results/contigs/VelvetOptimiser001/contigs.fa -outfmt "10 stitle" -out ../results/blast/blast-001.csv
 
 # ID 002
-blastx -db ../../viral-database/viral_protein/viral_protein -query ../results/contigs/contigs-price-002.cycle30.fasta -outfmt 10 -out ../results/blast/blast-002.csv
+blastx -db ../../viral-database/viral_protein/viral_protein -query ../results/contigs/contigs-price-002.cycle30.fasta -outfmt "10 stitle" -out ../results/blast/blast-002.csv
 
 # ID 003
-blastx -db ../../viral-database/viral_protein/viral_protein -query ../results/contigs/contigs-price-003.cycle30.fasta -outfmt 10 -out ../results/blast/blast-003.csv
+blastx -db ../../viral-database/viral_protein/viral_protein -query ../results/contigs/contigs-price-003.cycle30.fasta -outfmt "10 stitle" -out ../results/blast/blast-003.csv
 
 # ID 004
-blastx -db ../../viral-database/viral_protein/viral_protein -query ../results/contigs/contigs-price-004.cycle30.fasta -outfmt 10 -out ../results/blast/blast-004.csv
+blastx -db ../../viral-database/viral_protein/viral_protein -query ../results/contigs/contigs-price-004.cycle30.fasta -outfmt "10 stitle" -out ../results/blast/blast-004.csv
+
+# ID 005
+blastx -db ../../viral-database/viral_protein/viral_protein -query ../results/contigs/VelvetOptimiser005/contigs.fa -outfmt "10 stitle" -out ../results/blast/blast-005.csv
