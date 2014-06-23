@@ -22,3 +22,4 @@ quast_eval () {
 #quast_eval 005 'contigs.fa'
 #quast_eval 006 'contig.fa'
 #quast_eval 007 'contig.fa'
+quast_eval 008 'contig.fa'

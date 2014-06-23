@@ -156,3 +156,10 @@ Viral Genome Assembly Project Notes
 |PRICE contigs | 1m44.847s | 0m0.816s | 95m28.733s |
 |CLC contigs | 7m22.383s | 0m1.298s | |
 
+========
+6/23/2014
+
+- Added quast evaluation script, allows for comparison between CLCbio and other assemblers
+- comparing local blast with CLCbio's blast. Need to download NR database for speedup I think
+- IDBA_UD assembly is awesome, got max assembly of 4Kb
+- IDBA_UD is way more awesome than I thought. I got a 15Kb assembly that aligns to the grapevine leafroll associated virus 3
