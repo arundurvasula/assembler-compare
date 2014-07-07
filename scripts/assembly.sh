@@ -39,4 +39,8 @@ source /home/arun/.bash_profile
 # ID=007
 #idba_ud -r ../data/trimmed-reads/LV89-02.fa -o ../results/contigs/007 --mink 21 --maxk 31 --step 2
 # ID=008
-idba_ud -r ../data/trimmed-reads/LV89-02.fa -o ../results/contigs/008 --mink 19 --maxk 49 --step 2
+#idba_ud -r ../data/trimmed-reads/LV89-02.fa -o ../results/contigs/008 --mink 19 --maxk 49 --step 2
+# ID=009
+#idba_ud -r ../data/trimmed-reads/LR110-ds.fastq -o ../results/contigs/009 --mink 19 --maxk 49 --step 2
+# ID=010
+idba_ud -r ../data/trimmed-reads/LR118-ds.fastq -o ../results/contigs/010 --mink 39 --maxk 49 --step 2

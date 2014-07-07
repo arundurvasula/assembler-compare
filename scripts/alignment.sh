@@ -5,10 +5,10 @@ source /home/arun/.bash_profile
 #This script holds commands to align the original reads back to the contigs to see how many reads were used in the final contigs
 
 # Aligning Velvet assembly 001
-bwa index -a bwtsw ../results/contigs/VelvetOptimiser001/contigs.fa
-bwa bwasw ../results/contigs/VelvetOptimiser001/contigs.fa ../data/trimmed-reads/LV89-02.fa > ../results/alignment/align-001.sam
-samtools view -bS ../results/alignment/align-001.sam > ../results/alignment/align-001.bam
-samtools flagstat ../results/alignment/align-001.bam
+#bwa index -a bwtsw ../results/contigs/VelvetOptimiser001/contigs.fa
+#bwa bwasw ../results/contigs/VelvetOptimiser001/contigs.fa ../data/trimmed-reads/LV89-02.fa > ../results/alignment/align-001.sam
+#samtools view -bS ../results/alignment/align-001.sam > ../results/alignment/align-001.bam
+#samtools flagstat ../results/alignment/align-001.bam
 
 ## Aligning PRICE assembly 002
 #bwa index -a bwtsw ../results/contigs/contigs-price-002.cycle30.fasta
@@ -29,7 +29,13 @@ samtools flagstat ../results/alignment/align-001.bam
 #samtools flagstat ../results/alignment/align-price-004.bam
 
 # Aligning PRICE Velvet Hybrid assembly 005
-bwa index -a bwtsw ../results/contigs/VelvetOptimiser005/contigs.fa
-bwa bwasw ../results/contigs/VelvetOptimiser005/contigs.fa ../data/trimmed-reads/LV89-02.fa > ../results/alignment/align-005.sam
-samtools view -bS ../results/alignment/align-005.sam > ../results/alignment/align-005.bam
-samtools flagstat ../results/alignment/align-005.bam
+#bwa index -a bwtsw ../results/contigs/VelvetOptimiser005/contigs.fa
+#bwa bwasw ../results/contigs/VelvetOptimiser005/contigs.fa ../data/trimmed-reads/LV89-02.fa > ../results/alignment/align-005.sam
+#samtools view -bS ../results/alignment/align-005.sam > ../results/alignment/align-005.bam
+#samtools flagstat ../results/alignment/align-005.bam
+
+# Aligning IDBA_UD assembly 008
+bwa index -a bwtsw ../results/contigs/008/15kb-contig.fa
+bwa bwasw ../results/contigs/008/15kb-contig.fa ../data/refseq/GLRaV3.fasta > ../results/alignment/align-008.sam
+samtools view -bS ../results/alignment/align-008.sam > ../results/alignment/align-008.bam
+samtools flagstat ../results/alignment/align-008.bam
